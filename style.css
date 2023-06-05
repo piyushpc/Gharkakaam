@@ -1,0 +1,166 @@
+/* Import the font */
+
+
+/* Set the font family */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    position: fixed;
+    /* margin-top: 10px; */
+    z-index: 1;
+    margin: 10px;
+    /* font: 8em; */
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav a {
+    color: #555;
+    /* font-size: 8px; */
+    /* margin-left: 40px; */
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav form {
+    margin-right: auto;
+    
+}
+
+nav input[type=search] {
+    /* border-radius: 8px; */
+    padding: 1px 2px;
+    border: none;
+    /* box-shadow: 0px 2px 2px rgba(225, 213, 39, 0.898); */
+    font-family: "Poppins",sans-serif;
+    color: #575555;
+}
+
+nav button[type=submit] {
+    width: 30%;
+    border: none;
+    /* border-radius: 5px; */
+    /* background-color: #dbde3a; */
+    color: #575555;
+    padding: 2px 1px;
+    font-family: "Poppins",sans-serif;
+}
+
+/* Container */
+.container {
+    border: #555;
+    max-width: 900px;
+    margin: 10px auto;
+    padding: 2px 5px;
+    margin-top: px;
+    
+}
+
+/* Images */
+img {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* padding: 5px 5px; */
+}
+
+/* Jumbotron */
+.jumbotron {
+   text-align: left;
+    font-family: "Poppins",sans-serif;;
+    background-color: #eae6e6 8px;;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-top: px;
+    padding: 1px;
+    display: block;
+    border: #363535;
+    /* border-radius: 3px; */
+    border: #474545 2px;
+
+
+    
+}
+
+
+
+
+/* Buttons */
+.btn {
+    /* border-radius: 1px; */
+    font-family: "Poppins",sans-serif;;
+    font-size: 15px;
+    padding: 15px 2px;
+    margin-top: 20px;
+    text-align: right;
+    text-decoration: none;
+    color: #484747;
+}
+
+.btn-primary {
+    background-color: #e9eae9;
+    border: none;
+    margin: 20px;
+    
+}
+
+/* .btn-primary:hover {
+    /* background-color: #2E8B57; */
+
+
+.btn-lg {
+    font-size: 20px;
+    /* border-radius: 16px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+
+}
+h4{
+    display: flex;
+    margin-bottom: 0%;
+}
+.jumbotron h2, h3, h4{
+    margin: 10px;
+    font-family: "Poppins",sans-serif;;
+
+    text-decoration: #555;
+}
+.jumbotron h3{
+    display: flex;
+    margin: 4px;
+    word-spacing: 0px;
+    font-family: "Poppins",sans-serif;;
+
+    /* text-decoration: #666666; */
+}
+/* .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    } */
+
+/* for series numbering <?php echo  $count." )";$count++; ?> */
+
+.h3{
+    float: center;
+}

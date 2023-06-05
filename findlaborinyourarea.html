@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Find Laborers in Your Area</title>
+    <link rel="stylesheet" href="profile.css">
+	<!-- Include your CSS stylesheet here -->
+</head>
+<body>
+	<h1>Find Laborers in Your Area</h1>
+	<form action="search.php" method="GET">
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location">
+		<br><br>
+		<label for="skill">Skill:</label>
+		<select id="skill" name="skill">
+			<option value="plumbing">Plumbing</option>
+			<option value="electrical">Electrical</option>
+			<option value="carpentry">Carpentry</option>
+			<option value="masonry">Masonry</option>
+			<!-- Add more options here as needed -->
+		</select>
+		<br><br>
+		<button type="submit">Search</button>
+	</form>
+	<!-- Include your JavaScript code here -->
+</body>
+</html>

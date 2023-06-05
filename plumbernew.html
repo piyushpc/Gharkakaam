@@ -1,0 +1,62 @@
+<?php include("register.php"); ?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Plumbers in Your Area</title>
+    <link rel="stylesheet" href="plumbernew.css">
+</head>
+<body>
+    
+	<h1>Plumbers in Your Area</h1>
+	
+	<!-- Registration form for plumbers -->
+	<h2>Register as a Plumber</h2>
+	<form action="register.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required><br><br>
+		
+		<label for="location">Location:</label>
+		<input type="text" id="location" name="location" required><br><br>
+		
+		<label for="phone">Phone Number:</label>
+		<input type="tel" id="phone" name="phone" required><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required><br><br>
+		
+		<label for="skills">Skills:</label>
+		<input type="text" id="skills" name="skills" required><br><br>
+		
+		<input type="submit" value="Register">
+	</form>
+	
+	<!-- List of registered plumbers -->
+	<h2>Registered Plumbers</h2>
+	<table>
+		<tr>
+			<th>Name</th>
+			<th>Location</th>
+			<th>Phone Number</th>
+			<th>Email</th>
+			<th>Skills</th>
+		</tr>
+		<!-- Sample data -->
+		<tr>
+			<td>John Smith</td>
+			<td>New York</td>
+			<td>555-1234</td>
+			<td>johnsmith@email.com</td>
+			<td>Pipe fitting, drain cleaning</td>
+		</tr>
+		<tr>
+			<td>Jane Doe</td>
+			<td>Los Angeles</td>
+			<td>555-5678</td>
+			<td>janedoe@email.com</td>
+			<td>Water heater installation, leak repair</td>
+		</tr>
+	</table>
+</body>
+</html>
